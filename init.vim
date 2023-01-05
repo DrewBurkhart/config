@@ -173,10 +173,8 @@ Plug 'Shougo/echodoc.vim'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " Plug 'dart-lang/dart-vim-plugin'
-Plug 'morhetz/gruvbox'
 call plug#end()
 
 syntax on
 set t_Co=256
 set cursorline
-colorscheme gruvbox
