@@ -182,7 +182,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["trouble.nvim"] = {
-    config = { "\27LJ\2\n≈\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\4\nerror\nerror\thint\thint\fwarning\twarn\16information\tinfo\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\19toggle_preview\6P\tnext\6j\16toggle_mode\6m\nclose\6q\vcancel\n<esc>\frefresh\6r\rprevious\6k\fpreview\6p\nhover\6K\1\0\15\25use_diagnostic_signs\1\tmode\26workspace_diagnostics\14auto_fold\1\17auto_preview\2\15auto_close\2\14auto_open\2\17indent_lines\1\ngroup\2\fpadding\2\16fold_closed\6>\14fold_open\6v\nicons\1\nwidth\0032\vheight\3\n\rposition\vbottom\nsetup\ftrouble\frequire\0" },
+    config = { "\27LJ\2\n≈\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\4\fwarning\twarn\nerror\nerror\16information\tinfo\thint\thint\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\19toggle_preview\6P\vcancel\n<esc>\tnext\6j\frefresh\6r\rprevious\6k\fpreview\6p\nhover\6K\nclose\6q\16toggle_mode\6m\1\0\15\14auto_fold\1\17auto_preview\2\15auto_close\2\14auto_open\2\17indent_lines\1\fpadding\2\ngroup\2\16fold_closed\6>\14fold_open\6v\nicons\1\nwidth\0032\vheight\3\n\rposition\vbottom\25use_diagnostic_signs\1\tmode\26workspace_diagnostics\nsetup\ftrouble\frequire\0" },
     loaded = true,
     path = "/Users/andrewburkhart/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
@@ -200,10 +200,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n≈\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\4\nerror\nerror\thint\thint\fwarning\twarn\16information\tinfo\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\19toggle_preview\6P\tnext\6j\16toggle_mode\6m\nclose\6q\vcancel\n<esc>\frefresh\6r\rprevious\6k\fpreview\6p\nhover\6K\1\0\15\25use_diagnostic_signs\1\tmode\26workspace_diagnostics\14auto_fold\1\17auto_preview\2\15auto_close\2\14auto_open\2\17indent_lines\1\ngroup\2\fpadding\2\16fold_closed\6>\14fold_open\6v\nicons\1\nwidth\0032\vheight\3\n\rposition\vbottom\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
@@ -212,6 +208,10 @@ time([[Config for rose-pine]], false)
 time([[Config for fidget.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\vfidget\frequire\0", "config", "fidget.nvim")
 time([[Config for fidget.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n≈\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\4\fwarning\twarn\nerror\nerror\16information\tinfo\thint\thint\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\19toggle_preview\6P\vcancel\n<esc>\tnext\6j\frefresh\6r\rprevious\6k\fpreview\6p\nhover\6K\nclose\6q\16toggle_mode\6m\1\0\15\14auto_fold\1\17auto_preview\2\15auto_close\2\14auto_open\2\17indent_lines\1\fpadding\2\ngroup\2\16fold_closed\6>\14fold_open\6v\nicons\1\nwidth\0032\vheight\3\n\rposition\vbottom\25use_diagnostic_signs\1\tmode\26workspace_diagnostics\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

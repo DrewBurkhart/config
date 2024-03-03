@@ -11,11 +11,12 @@ local rust_tools = require('rust-tools')
 require('mason').setup()
 require('mason-lspconfig').setup({
     ensure_installed = {
+        'rust_analyzer',
+        'nil_ls',
         'tsserver',
         'gopls',
         'eslint',
-        'lua_ls',
-        'rust_analyzer'
+        'lua_ls'
     },
     handlers = {
         lsp.default_setup,
