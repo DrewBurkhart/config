@@ -92,7 +92,6 @@ return require('packer').startup(function(use)
                     next = "j"                     -- next item
                 },
                 indent_lines = false,              -- add an indent guide below the fold icons
-                auto_open = true,                  -- automatically open the list when you have diagnostics
                 auto_close = true,                 -- automatically close the list when you have no diagnostics
                 auto_preview = true,               -- automatically preview the location of the diagnostic. <esc> to close preview and go back to last window
                 auto_fold = false,                 -- automatically fold a file trouble list at creation
@@ -104,7 +103,14 @@ return require('packer').startup(function(use)
                     hint = "hint",
                     information = "info"
                 },
-                use_diagnostic_signs = false -- enabling this will use the signs defined in your lsp client
+                use_diagnostic_signs = false, -- enabling this will use the signs defined in your lsp client
+                opts = {
+                    modes = {
+                        diagnostics = {
+                            auto_open = true
+                        }
+                    }
+                },
             }
         end
     }

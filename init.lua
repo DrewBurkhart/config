@@ -1,1 +1,1 @@
-require('angooba')
+require('config')
